@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" />
     <title>Frontend Mentor | Meet Landing Page</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <!-- logo -->
+      <figure>
+        <img src="./assets/logo.svg" alt="meet logo" />
+      </figure>
+    </header>
+
+    <main>
+      <!-- hero section -->
+      <section class="hero-contents">
+        <!-- images -->
+        <div class="hero-images mobile-variant">
+          <img src="./assets/tablet/image-hero.png" alt="" />
+        </div>
+
+        <div style="display: none" class="hero-images desktop-variant">
+          <img src="./assets/desktop/image-hero-left.png" alt="" />
+        </div>
+
+        <!-- content -->
+        <div class="content">
+          <!-- text -->
+          <h1 class="title">Group Chat for Everyone</h1>
+          <p class="text">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+
+          <!-- buttons -->
+          <div class="btns-container">
+            <a href="#" class="primary-btn blue">
+              Download <span class="version">v1.3</span>
+            </a>
+
+            <a href="#" class="primary-btn purple">What is it?</a>
+          </div>
+        </div>
+
+        <div style="display: none" class="hero-images desktop-variant">
+          <img src="./assets/desktop/image-hero-right.png" alt="" />
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
