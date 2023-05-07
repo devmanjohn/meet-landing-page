@@ -1,0 +1,29 @@
+/* RESET STYLES */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+a,
+button,
+input {
+  all: unset;
+}
+
+/* HEADER */
+header {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  padding: 4rem;
+}/*# sourceMappingURL=style.css.map */
